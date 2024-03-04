@@ -1,0 +1,62 @@
+/* custom.css */
+body {
+    background-color: #f8f9fa; /* Sáng hơn một chút so với màu mặc định */
+}
+
+/* Tăng khoảng cách giữa các card và các section khác */
+.card {
+    margin-bottom: 1rem;
+}
+
+/* Style cho nút back */
+.btn-primary {
+    background-color: #0056b3; /* Màu nền cho nút */
+    border-color: #004085; /* Viền cho nút */
+}
+
+/* Thêm hiệu ứng hover cho nút */
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #005cbf;
+}
+
+/* Thêm một số style cho phần showtimes */
+.showtime-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.375rem 0.75rem;
+    margin-right: 0.375rem;
+    margin-bottom: 0.375rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.showtime-button:hover {
+    background-color: #0056b3;
+}
+
+/* Custom style cho các movie cards */
+.now-showing .card {
+    margin-bottom: 1rem;
+}
+
+/* Và thêm các custom styles khác theo ý bạn... */
+
+#main-movie img {
+    width: 100%; /* Đặt chiều rộng của hình ảnh bằng 100% của phần tử cha */
+    max-width: 600px; /* Hoặc bạn có thể đặt một chiều rộng tối đa */
+    height: auto; /* Chiều cao tự động để giữ tỷ lệ */
+    border-radius: 15px; /* Bo tròn các góc */
+}
+
+/* Nếu bạn muốn hình ảnh chiếm nhiều không gian hơn, điều chỉnh flex của các div cha */
+#main-movie .col-md-4 {
+    flex: 0 0 auto; /* Cho phép div này mở rộng không giới hạn */
+    width: 50%; /* Hoặc một chiều rộng cố định */
+}
+
+#main-movie .col-md-8 {
+    flex: 0 0 auto; /* Cho phép div này mở rộng không giới hạn */
+    width: 50%; /* Hoặc một chiều rộng cố định */
+}

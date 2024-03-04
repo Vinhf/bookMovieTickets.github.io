@@ -1,0 +1,12 @@
+{
+    "elements": {
+        "c:forEach": {
+            "attributes": {
+                "var": {},
+                "end": {},
+                "begin": {}
+            }
+        }
+    },
+    "attributes": {}
+}
